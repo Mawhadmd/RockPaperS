@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="header.css" />
+    <link rel="stylesheet" type="text/css" href="general.css" />
+    <title>Rockpapers</title>
+  </head>
+  <body>
+    <header>
+      <div class="login">
+        <input type="text" placeholder="username" />
+        <input type="password" placeholder="password" />
+      </div>
+      <nav  style="overflow: none;">
+        <ul>
+          <li class="current-page">
+            <a
+              >1
+              <div>You're here</div></a
+            >
+          </li>
+          <li><a>2</a></li>
+          <li><a>3</a></li>
+          <li><a>4</a></li>
+        </ul>
+        <div class="slider"></div>
+        <div><img class="img1" src="dog.jpg" alt="" /></div>
+      </nav>
+    </header>
+    <main>
+      Play Rock Paper Scssiors
+      <div class="the-game">
+        <button onclick="checkanswer('rock')">Rock</button>
+        <button onclick="checkanswer('paper')">Paper</button>
+        <button onclick="checkanswer('scissor')">Scissors</button>
+        <button onclick="localStorage.removeItem('result1'); handleClick()">Reset</button>
+      </div>
+      <div id="results"></div>
+      <div id="who-won"></div>
+    </main>
+    <footer>Mohammed Awad @ 2024</footer>
+  </body>
+<script src="scr.js"></script>
+</html>

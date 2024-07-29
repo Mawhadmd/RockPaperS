@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .the-game {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+  }
+
+  .the-game button {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: rgb(255, 191, 42);
+    border: 10px outset rgb(27, 23, 6);
+    font-size: 25px;
+  }
+
+  .the-game button:hover {
+    cursor: pointer;
+  }
+
+  #results{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
